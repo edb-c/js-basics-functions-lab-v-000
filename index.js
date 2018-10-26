@@ -9,6 +9,7 @@ function distanceFromHqInBlocks (blockNumber) {
 }
 
 //returns a distance in blocks 
-distanceFromHqInBlock
+return distanceFromHqInBlocks(blockNumber) * 264;
+
 //calculates distances below 42nd street 
 distanceFromHqInBlocks
