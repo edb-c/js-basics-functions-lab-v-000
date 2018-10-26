@@ -1,6 +1,3 @@
-//distanceFromHqInBlocks()
-//calculates distances below 42nd street
-
 function distanceFromHqInBlocks (blockNumber) {
   if (blockNumber > 42) {
     return blockNumber - 42;
@@ -9,8 +6,6 @@ function distanceFromHqInBlocks (blockNumber) {
   }
 }
 
-//distanceFromHqInFeet()
-//calculates distances below 42nd street
 
 function distanceFromHqInFeet (blockNumber) {
   return distanceFromHqInBlocks(blockNumber) * 264;
@@ -23,3 +18,5 @@ function distanceTravelledInFeet (start, destination) {
     return (start - destination) * 264;
   }
 }
+
+
