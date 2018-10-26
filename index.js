@@ -32,6 +32,13 @@ function distanceTravelledInFeet (start, destination) {
   }
 }
 
+//calculatesFarePrice(start, destination)
+//gives customers a free sample ‣
+//charges 2 cents per foot when total feet travelled is
+//between 400 and 2000 (remember the first 400 feet are 
+//free!) ‣
+//charges 25 dollars for a distance over 2000 feet ‣
+//does not allow rides over 2500 feet
 
 function calculatesFarePrice (start, destination) {
   const distance = distanceTravelledInFeet(start, destination);
