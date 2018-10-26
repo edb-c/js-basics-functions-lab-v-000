@@ -19,8 +19,10 @@ function distanceFromHqInFeet (blockNumber) {
   return distanceFromHqInBlocks(blockNumber) * 264;
 }
 
-
-
+//distanceTravelledInFeet()
+//returns the distance travelled in feet ‣
+//returns a distance in feet ‣
+//returns distance when destination is below distance
 
 function distanceTravelledInFeet (start, destination) {
   if (start < destination) {
@@ -29,6 +31,7 @@ function distanceTravelledInFeet (start, destination) {
     return (start - destination) * 264;
   }
 }
+
 
 function calculatesFarePrice (start, destination) {
   const distance = distanceTravelledInFeet(start, destination);
