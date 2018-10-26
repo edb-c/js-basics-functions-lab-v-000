@@ -11,10 +11,16 @@ function distanceFromHqInBlocks (blockNumber) {
   }
 }
 
-
+//distanceFromHqInFeet()
+//returns a distance in feet ‣
+//returns a distance in feet ‣
+//calculates distances below 42nd street
 function distanceFromHqInFeet (blockNumber) {
   return distanceFromHqInBlocks(blockNumber) * 264;
 }
+
+
+
 
 function distanceTravelledInFeet (start, destination) {
   if (start < destination) {
